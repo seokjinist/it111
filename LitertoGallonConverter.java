@@ -14,10 +14,10 @@ public class LitertoGallonConverter {
             if (counter == 5) {
                 System.out.println("");
                 counter = 0; // resets the line counter
-
-
+                
             }
-            }
+        }
+
             System.out.println("All done!");
 
 
