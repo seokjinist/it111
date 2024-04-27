@@ -7,7 +7,12 @@ public class LitertoGallonConverter {
         for (gal = 1; gal <= 100; gal = gal + 4) {
             lit = (gal * 3.79);
             lit = Math.round(lit * 100.0) / 100.0;
-            System.out.println(lit + " Liters = " + gal + " Gallon" + (gal != 1 ? "s" : "") + ".");
+            if (gal == 1){
+                System.out.println(lit + " Liters = " + gal + " Gallon."); //prints first line as gallon
+            }else{
+                System.out.println(lit + " Liters = " + gal + " Gallons.");
+            }
+            
             counter++;
 
             // every 5th line, prints a blank line
