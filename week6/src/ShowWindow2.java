@@ -46,13 +46,13 @@ public class ShowWindow2 extends JFrame {
         messageLabel.setBackground(Color.red); //Changes the color to red
 
 
-        myTextField = new JTextField(20); // Increases columns to make the text field wider
-        myTextField.setPreferredSize(new Dimension(10, 50)); // Set preferred width and height
-        myTextField2 = new JTextField(20); // Increases columns to make the text field wider
-        myTextField2.setPreferredSize(new Dimension(10, 50)); // Set preferred width and height
+        myTextField = new JTextField(20); //Increases columns to make the text field wider
+        myTextField.setPreferredSize(new Dimension(10, 50)); //Sets preferred width and height
+        myTextField2 = new JTextField(20); //Increases columns to make the text field wider
+        myTextField2.setPreferredSize(new Dimension(10, 50)); //Sets preferred width and height
 
 
-        panel = new JPanel(new FlowLayout(FlowLayout.LEFT)); // Moved the layout to the left
+        panel = new JPanel(new FlowLayout(FlowLayout.LEFT)); //Moves the layout to the left
         panel.setBackground(Color.red);
 
         panel.add(messageLabel);
