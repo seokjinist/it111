@@ -20,14 +20,14 @@ public class ShowWindow2 extends JFrame {
 
         setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
 
-            // Close the window and close the program
+        //Closes the window and closes the program
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         buildPanel();
 
         add(panel);
 
-        //This will change the location of the window
+        //Changes the location of the window
         setLocation(500, 150);
 
         setVisible(true);
@@ -43,16 +43,16 @@ public class ShowWindow2 extends JFrame {
         messageLabel2.setFont(customFont2);
 
         messageLabel.setOpaque(true);
-        messageLabel.setBackground(Color.red); //changes the color to red
+        messageLabel.setBackground(Color.red); //Changes the color to red
 
 
-        myTextField = new JTextField(20); // Increased columns to make the text field wider
+        myTextField = new JTextField(20); // Increases columns to make the text field wider
         myTextField.setPreferredSize(new Dimension(10, 50)); // Set preferred width and height
-        myTextField2 = new JTextField(20); // Increased columns to make the text field wider
+        myTextField2 = new JTextField(20); // Increases columns to make the text field wider
         myTextField2.setPreferredSize(new Dimension(10, 50)); // Set preferred width and height
 
 
-        panel = new JPanel(new FlowLayout(FlowLayout.LEFT)); // moved the layout to the left
+        panel = new JPanel(new FlowLayout(FlowLayout.LEFT)); // Moved the layout to the left
         panel.setBackground(Color.red);
 
         panel.add(messageLabel);
